@@ -4,7 +4,6 @@ set -e
 
 cd src/01-module
 
-conda install ipykernel
 python3 -m pip install ipykernel
 python3 -m ipykernel install --user
 
