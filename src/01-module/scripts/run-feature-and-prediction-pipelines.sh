@@ -3,6 +3,7 @@
 set -e
 
 cd src/01-module
+ipython3 kernelspec install-self
 
 jupyter nbconvert --to notebook --execute iris-feature-pipeline.ipynb
 jupyter nbconvert --to notebook --execute iris-batch-inference-pipeline.ipynb
