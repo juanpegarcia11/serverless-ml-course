@@ -4,7 +4,7 @@ set -e
 
 cd src/01-module
 
-jupyter kernelspec install python3
+conda install ipykernel
 jupyter kernelspec enable python3
 
 jupyter nbconvert --to notebook --execute iris-feature-pipeline.ipynb
