@@ -19,7 +19,6 @@ jobs:
       - name: setup python3 kernel in jupyter
         run: |
           conda install ipykernel
-          jupyter kernelspec enable python3
           
       - name: install python packages
         run: |
