@@ -24,7 +24,7 @@ jobs:
       
       - name: run module tests
         run: |
-          cd ./src/02-module
+          cd src/02-module
           python -m pytest
           
       - name: execute python workflows from bash script
